@@ -1,0 +1,13 @@
+package com.clients.clients_management;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ClientsManagementApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
