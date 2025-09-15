@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/",
+    "queryParameters": {
+      "name": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": "public, max-age=86400"
+    },
+    "bodyFileName": "avatar.svg"
+  }
+}
